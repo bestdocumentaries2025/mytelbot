@@ -1,0 +1,26 @@
+{
+  "functions": {
+    "api/bot.js": {
+      "maxDuration": 300
+    },
+    "api/cleanup.js": {
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/bot",
+      "destination": "/api/bot.js"
+    },
+    {
+      "source": "/api/cleanup",
+      "destination": "/api/cleanup.js"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/cleanup",
+      "schedule": "0 2 * * *"
+    }
+  ]
+}
