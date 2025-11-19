@@ -1,4 +1,8 @@
 {
+  "version": 2,
+  "framework": null,
+  "buildCommand": "echo 'No build step required.'",
+  "outputDirectory": ".",
   "functions": {
     "api/bot.js": {
       "maxDuration": 300
