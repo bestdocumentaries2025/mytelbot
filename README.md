@@ -1,1 +1,0 @@
-Telegram Bot using Next js and Webhooks.
