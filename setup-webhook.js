@@ -10,7 +10,7 @@ import { TelegramBot } from 'node-telegram-bot-api';
 const vercelUrl = process.argv[2];
 if (!vercelUrl) {
   console.error('Please provide the Vercel deployment URL as an argument.');
-  console.error('Example: node setup-webhook.js https://your-project.vercel.app');
+  console.error('Example: node setup-webhook.js https://telbot-delta.vercel.app');
   process.exit(1);
 }
 
