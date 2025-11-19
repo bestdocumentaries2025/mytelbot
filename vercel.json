@@ -1,8 +1,4 @@
 {
-  "version": 2,
-  "framework": null,
-  "buildCommand": "echo 'No build step required.'",
-  "outputDirectory": ".",
   "functions": {
     "api/bot.js": {
       "maxDuration": 300
@@ -11,16 +7,6 @@
       "maxDuration": 60
     }
   },
-  "rewrites": [
-    {
-      "source": "/api/bot",
-      "destination": "/api/bot.js"
-    },
-    {
-      "source": "/api/cleanup",
-      "destination": "/api/cleanup.js"
-    }
-  ],
   "crons": [
     {
       "path": "/api/cleanup",
